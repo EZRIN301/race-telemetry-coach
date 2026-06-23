@@ -1,0 +1,5 @@
+Date,Resource,Resource_ID_or_Name,Region,Expected_Cost_Exposure,Created,Deleted,Termination_Status,Notes
+2026-06-23,Lab_0_Preflight,N/A,us-east-2,$0,No,No,Complete,Read-only validation only
+2026-06-23,ECR_Preflight,N/A,us-east-2,$0,No,No,Complete,ECR repository listing succeeded
+2026-06-23,EKS_Preflight,N/A,us-east-2,$0,No,No,Complete,EKS listing succeeded; cluster creation not tested
+2026-06-23,Bedrock_Preflight,N/A,us-east-2,$0,No,No,Complete,Foundation model listing succeeded

@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+#Local configurations and credentials
+.env
+*.pem
+*.key
+secrets/
+.aws/
+
+# Private or raw telemetry
+sample_data/private/
+data/private/
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
