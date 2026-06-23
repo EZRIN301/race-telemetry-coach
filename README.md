@@ -26,3 +26,18 @@ Do not commit private race telemetry, credentials, API keys, .pem files, or pers
 
 ## Cleanup Policy
 Lab 1 creates no AWS infrastructure. Remove the Python virtual environment with `rm -rf .venv` only when the project is no longer needed. Later AWS labs will use the project teardown checklist and resource tracker created in Lab 0.
+
+## Quick Start
+
+```bash
+git clone https://github.com/EZRIN301/race-telemetry-coach.git
+cd race-telemetry-coach
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python -m pytest -q
+python -m app.validate_csv sample_data/clean_lap.csv
+A valid telemetry CSV must follow the rules in:
+docs/telemetry-data-contract.md
+
+
